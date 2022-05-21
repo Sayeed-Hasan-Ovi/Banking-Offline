@@ -20,5 +20,7 @@ public class Bank {
 
     private Employee[] employees;
 
-
+    public Bank(long fund) {
+        this.fund = fund;
+    }
 }
